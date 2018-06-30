@@ -19,7 +19,7 @@ import com.example.demo.test.seleniumwd.page.ListarRestaurantesPage;
 
 public class RestaurantWebDriverTest {
 	
-	private String urlInicial = "http://localhost:8081";
+	private String urlInicial = "http://localhost:8082";
 	private ListarRestaurantesPage listarRestaurantesPage;
 	private IniciarSesionPage iniciarSesionPage;
 	private AddEditRestaurantesPage addEditRestaurantPage;
