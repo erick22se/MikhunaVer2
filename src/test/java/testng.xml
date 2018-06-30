@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MikhunaTestSuite" parallel="false">
+	<test name="RestaurantTest" enabled="true">
+		<parameter name="nombreInsertar" value="El Criollito" />
+		<parameter name="celularInsertar" value="909090909" />
+		<parameter name="horaAperturaInsertar" value="10:30 AM" />
+		<parameter name="horaCierreInsertar" value="03:30 PM" />
+		<parameter name="estadoInsertar" value="true" />
+		
+		<parameter name="nombreActualizar" value="El Criollito 2" />
+		<parameter name="celularActualizar" value="909999909" />
+		<parameter name="horaAperturaActualizar" value="10:35 AM" />
+		<parameter name="horaCierreActualizar" value="03:35 PM" />
+		<parameter name="estadoActualizar" value="true" />
+		<classes>
+			<class name="com.example.demo.test.RestaurantTest" />
+			<class name="com.example.demo.test.DistrictTest" />
+			<class name="com.example.demo.test.UserTest" />
+		</classes>
+	</test>
+	<test name="RestaurantWebDriverChromeTest" enabled="true">
+		<parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="1"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivoList" value="C:\Mikhuna_ver2\Data\datosList.xls"/>
+		<parameter name="rutaArchivoAdd" value="C:\Mikhuna_ver2\Data\datosAdd.xls"/>
+		<parameter name="rutaArchivoEdit" value="C:\Mikhuna_ver2\Data\datosEdit.xls"/>
+		<parameter name="rutaArchivoDelete" value="C:\Mikhuna_ver2\Data\datosDelete.xls"/>
+		<classes>
+			<class name="com.example.demo.test.seleniumwd.tests.RestaurantWebDriverTest" />
+		</classes>
+	</test>
+	<test name="RestaurantWebDriverFirefoxTest" enabled="true">
+		<parameter name="navegador" value="firefox"/>
+		<parameter name="remoto" value="1"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivoList" value="C:\MikhunaTest\Data\datosList.xls"/>
+		<parameter name="rutaArchivoAdd" value="C:\MikhunaTest\Data\datosAdd.xls"/>
+		<parameter name="rutaArchivoEdit" value="C:\MikhunaTest\Data\datosEdit.xls"/>
+		<parameter name="rutaArchivoDelete" value="C:\MikhunaTest\Data\datosDelete.xls"/>
+		<classes>
+			<class name="com.example.demo.test.seleniumwd.tests.RestaurantWebDriverTest" />
+		</classes>
+	</test>
+	<test name="RestaurantWebDriverIETest" enabled="false">
+		<parameter name="navegador" value="ie"/>
+		<parameter name="remoto" value="1"/>
+		<parameter name="fuenteDatos" value="Excel"/>
+		<parameter name="rutaArchivoList" value="C:\MikhunaTest\Data\datosList.xls"/>
+		<parameter name="rutaArchivoAdd" value="C:\MikhunaTest\Data\datosAdd.xls"/>
+		<parameter name="rutaArchivoEdit" value="C:\MikhunaTest\Data\datosEdit.xls"/>
+		<parameter name="rutaArchivoDelete" value="C:\MikhunaTest\Data\datosDelete.xls"/>
+		<classes>
+			<class name="com.example.demo.test.seleniumwd.tests.RestaurantWebDriverTest" />
+		</classes>
+	</test>
+</suite> 
