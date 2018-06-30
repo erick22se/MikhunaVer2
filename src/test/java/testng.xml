@@ -30,14 +30,14 @@
 			<class name="com.example.demo.test.seleniumwd.tests.RestaurantWebDriverTest" />
 		</classes>
 	</test>
-	<test name="RestaurantWebDriverFirefoxTest" enabled="true">
+	<test name="RestaurantWebDriverFirefoxTest" enabled="false">
 		<parameter name="navegador" value="firefox"/>
 		<parameter name="remoto" value="1"/>
 		<parameter name="fuenteDatos" value="Excel"/>
-		<parameter name="rutaArchivoList" value="C:\MikhunaTest\Data\datosList.xls"/>
-		<parameter name="rutaArchivoAdd" value="C:\MikhunaTest\Data\datosAdd.xls"/>
-		<parameter name="rutaArchivoEdit" value="C:\MikhunaTest\Data\datosEdit.xls"/>
-		<parameter name="rutaArchivoDelete" value="C:\MikhunaTest\Data\datosDelete.xls"/>
+		<parameter name="rutaArchivoList" value="C:\Mikhuna_ver2\Data\datosList.xls"/>
+		<parameter name="rutaArchivoAdd" value="C:\Mikhuna_ver2\Data\datosAdd.xls"/>
+		<parameter name="rutaArchivoEdit" value="C:\Mikhuna_ver2\Data\datosEdit.xls"/>
+		<parameter name="rutaArchivoDelete" value="C:\Mikhuna_ver2\Data\datosDelete.xls"/>
 		<classes>
 			<class name="com.example.demo.test.seleniumwd.tests.RestaurantWebDriverTest" />
 		</classes>
@@ -46,10 +46,10 @@
 		<parameter name="navegador" value="ie"/>
 		<parameter name="remoto" value="1"/>
 		<parameter name="fuenteDatos" value="Excel"/>
-		<parameter name="rutaArchivoList" value="C:\MikhunaTest\Data\datosList.xls"/>
-		<parameter name="rutaArchivoAdd" value="C:\MikhunaTest\Data\datosAdd.xls"/>
-		<parameter name="rutaArchivoEdit" value="C:\MikhunaTest\Data\datosEdit.xls"/>
-		<parameter name="rutaArchivoDelete" value="C:\MikhunaTest\Data\datosDelete.xls"/>
+		<parameter name="rutaArchivoList" value="C:\Mikhuna_ver2\Data\datosList.xls"/>
+		<parameter name="rutaArchivoAdd" value="C:\Mikhuna_ver2\Data\datosAdd.xls"/>
+		<parameter name="rutaArchivoEdit" value="C:\Mikhuna_ver2\Data\datosEdit.xls"/>
+		<parameter name="rutaArchivoDelete" value="C:\Mikhuna_ver2\Data\datosDelete.xls"/>
 		<classes>
 			<class name="com.example.demo.test.seleniumwd.tests.RestaurantWebDriverTest" />
 		</classes>
